@@ -7,6 +7,11 @@ A correção de 2023, nesse caso já é uma correção da versão 2018, que eu h
 
 Porém, se alguem encontrar algum problema pode me contatar criando um "issue" aqui no github. 
 
+Para instalar a ABNT diretamente no word, abra o terminal do windows e digite o seguinte comando:
+```bat
+wget -Uri "https://github.com/ecostadelle/BibWord/raw/main/styles/ABNT_6023_2023_Author.XSL" -O $Env:APPDATA"\Microsoft\Bibliography\Style\ABNT_6023_2023_Author.XSL"
+```
+
 # Credit / Foreward
 This work is only made possible by the original work of Yves Dhondt (yves.dhondt@gmail.com) and his original project, found at https://bibword.codeplex.com/. I have created this project to preserve this work as it will otherwise disappear with the closure of CodePlex and I found it invaluable in my own studies. I will aim to keep this up to date (feel free to raise issues) however should the original project be migrated to another source I will be closing this in favor of one maintained by its original author.
 
